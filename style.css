@@ -1,0 +1,46 @@
+body {
+    background-color: gray;
+    margin: 0;
+}
+
+#navbar {
+    background-color: #484848;
+    color: red;
+    border-bottom: 1px solid #101010;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 60px;
+}
+
+#main {
+    margin: 0 30px 0 30px;
+    background-color: teal;
+    color: whitesmoke;
+    font-size: 60px;
+    display: flex;
+    width: auto;
+    justify-content: center;
+    align-content: center;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.adv {
+    margin: 8px auto;
+    text-align: center;
+    background-color: lightcoral;
+    width: 240px;
+    height: 80px;
+}
+
+#footer {
+    background-color: #191919;
+    color: #aaaaaa;
+    height: 160px;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
